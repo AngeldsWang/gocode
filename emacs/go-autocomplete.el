@@ -100,6 +100,7 @@
                                temp-buffer
                                nil
                                "-f=emacs"
+                               "-source"
                                "autocomplete"
                                (or (buffer-file-name) "")
                                (concat "c" (int-to-string (- (point) 1))))
